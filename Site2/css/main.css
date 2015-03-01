@@ -1,0 +1,332 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -mox-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+nav, section.main__options, .main__advantages {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+html, body {
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4;
+  color: #003064;
+  background-color: #fff; }
+
+h1 {
+  font-size: 1.875em;
+  /* 30px / 16px */ }
+
+h2 {
+  font-size: 1.125em;
+  /* 18px / 16px */ }
+
+p {
+  font-size: 0.875em; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  virtical-align: middle; }
+
+li {
+  padding: 2% 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #003064; }
+  a:hover {
+    color: #fabb70; }
+
+.highlight {
+  color: #fabb70; }
+
+.highlight__caps {
+  color: #fabb70;
+  font-size: 1.125em;
+  /* 18px / 16px */ }
+
+.highlight__caps, .caps {
+  text-transform: uppercase; }
+
+.main__into-text--dotted-line, .main__into-text--image, .product-section--dotted-line {
+  display: none; }
+
+.button {
+  color: #fff;
+  background-color: #fabb70;
+  display: block;
+  width: 17em;
+  margin: 2em 0;
+  padding: 1em;
+  border: 1px solid #aaa;
+  border-radius: 6px; }
+  .button:hover {
+    background-color: #003064; }
+
+.round--bkg {
+  width: 7.5em;
+  height: 7.5em;
+  margin: 0px 8px 20px 0px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  color: #fff;
+  text-transform: uppercase; }
+
+.section__bkg--outer {
+  background: #f3f1ed; }
+
+.section__bkg--inner {
+  background: #fff; }
+
+.section__bkg--outer, .section__bkg--inner {
+  padding: 1em;
+  border: 1px solid #dedbd2; }
+
+.clear {
+  clear: both; }
+
+#info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.8em;
+  font-size: 0.75em;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff; }
+
+nav {
+  margin-top: 2em;
+  padding: 0; }
+  nav li {
+    float: left;
+    width: 6em;
+    list-style: none; }
+  nav a {
+    padding: 0.875em; }
+    nav a:hover {
+      color: #fabb70;
+      background-color: #003064;
+      padding: 0.875em; }
+
+.active {
+  color: #fabb70; }
+
+.active:hover {
+  color: #fff; }
+
+footer {
+  background-color: #f3f1ed;
+  border-top: 1px solid #dedbd2;
+  text-align: center; }
+  footer h2 {
+    padding-top: 2em;
+    font-size: 1.5em;
+    /* 24px / 16px */ }
+  footer p {
+    padding-top: 1em; }
+
+header {
+  text-align: center; }
+
+main {
+  margin: 2em 0;
+  text-align: center; }
+
+section.main__into-text {
+  margin: 0 auto;
+  width: 92%;
+  line-height: 1.2; }
+
+section.main__into-text h2, section.main__product-section {
+  margin: 2em 0; }
+
+section.main__into-text p {
+  text-align: justify; }
+
+section.main__options {
+  flex-direction: column; }
+
+.options--border {
+  width: 17.25em;
+  text-align: center;
+  list-style: none;
+  border: 1px solid #aaa;
+  border-radius: 6px; }
+
+.options--header {
+  color: #fff;
+  background-color: #003064;
+  padding: 0.875em;
+  font-size: 1.125em; }
+
+.options--bkg {
+  background-color: #eee; }
+
+.options--bkg__bottom {
+  border-bottom: 1px solid #aaa; }
+
+.options--large {
+  font-size: 1.125em;
+  padding-top: 0.875em; }
+
+.main__advantages ul {
+  padding-top: 2.3em;
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  /* IE 9 */
+  -webkit-transform: rotate(5deg);
+  /* Chrome, Safari, Opera */ }
+
+.main__advantages--option1 {
+  background-color: #003064; }
+
+.main__advantages--option2 {
+  background-color: #fabb70; }
+
+.main__seo {
+  margin: 2em 0; }
+
+.main__seo--text {
+  margin: 1em 0; }
+
+.main__seo--text h2, .main__seo--text p {
+  margin-bottom: 0.875em; }
+
+.column {
+  text-align: justify; }
+  .column p {
+    padding: 0.875em; }
+
+@media all and (min-width: 37.5em) {
+  header, nav {
+    margin: 0 auto; }
+
+  header {
+    width: 20%;
+    float: left; }
+
+  nav {
+    float: right;
+    margin-top: 6em;
+    margin-bottom: 3em; }
+
+  main {
+    clear: both;
+    width: 90%;
+    margin: 2em auto; }
+
+  section.main__options {
+    flex-direction: row; }
+
+  .main__options--option-left {
+    margin-right: 0.875em; } }
+@media all and (min-width: 64em) {
+  main {
+    width: 89%;
+    position: relative; }
+
+  section.main__into-text {
+    width: 99%;
+    text-align: left; }
+
+  .main__into-text--dotted-line, .main__into-text--image, .product-section--dotted-line {
+    display: block; }
+
+  .main__into-text--dotted-line {
+    position: absolute;
+    top: 5em;
+    left: 25em; }
+
+  .main__into-text--image {
+    position: absolute;
+    top: 1em;
+    left: 34em; }
+
+  section.main__into-text p {
+    width: 42%; }
+
+  .main__product-section {
+    text-align: left; }
+
+  .product-section--dotted-line {
+    position: relative;
+    left: 11em; }
+
+  section.main__options {
+    float: right; }
+
+  .main__options {
+    position: relative;
+    top: -10em;
+    right: 0; }
+
+  .main__contact-details {
+    width: 40%;
+    margin-top: 4.6em; }
+
+  .main__advantages {
+    margin-top: 7em; }
+
+  .main__seo {
+    margin-top: 11.9em; }
+
+  .main__seo--text h2 {
+    text-align: left;
+    padding-left: 0.7em; }
+
+  .column {
+    -webkit-columns: 21.875em 2;
+    -moz-columns: 21.875em 2;
+    columns: 21.875em 2; } }
+@media all and (min-width: 74em) {
+  .content__wrapper {
+    margin: 0 auto;
+    min-width: 73em;
+    max-width: 73em; }
+
+  .main__into-text--image {
+    position: absolute;
+    top: -2em;
+    left: 35em; }
+
+  .main__options {
+    top: -13em;
+    right: 5em; }
+
+  section.main__into-text p {
+    width: 37%; }
+
+  .product-section--dotted-line {
+    left: 14em; }
+
+  .main__advantages {
+    width: 37%; }
+
+  .main__contact-details {
+    width: 36%; }
+
+  .main__seo {
+    width: 92%; } }
+
+/*# sourceMappingURL=main.css.map */
